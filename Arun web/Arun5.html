@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: beige;
+            background-image: linear-gradient( 120deg,#dad7cd,#d00000,#a8dadc,#ff4d6d);
+            text-align: center;
+            width: 130px;
+            margin: auto;
+            border-radius: 20px;
+            border-style: outset;
+            border-width: 5px;
+            border-color: black;
+            box-shadow: 10px 10px 10px gray;
+            font-size: 15px;
+        }
+        body{
+            background-color: aquamarine;
+            padding-top: 120px;
+        }
+        #mybox{
+            width: 200px;
+            height: 200px;
+            background-color: crimson;
+            animation-name: myanim ;
+            animation-duration: 40s;
+            animation-iteration-count: infinite;
+            position: relative;
+        }
+        @keyframes myanim{
+           0%{background-color: lawngreen;left: 0px;top: 0px;}
+           10%{background-color: #d00000;left: 200px;top: 0px}
+           20%{background-color: burlywood;left: 200px;top: 200px}
+           50%{background-color: darkorchid;left: 0px;top: 200px;}
+           60%{background-color: rgb(109, 2, 2);left: 0px;top: 0pt;}
+        }
+        header{
+            color: black;
+            background-image: linear-gradient(120deg,#d00000,#ff4d6d,#a8dadc);
+            left: 0px;
+            top: 10px;
+            position: fixed;
+            width: 100%;
+            font-size: 45px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            border-radius: 50px 5%;
+            box-shadow: 10px 10px 10px black;
+        }
+        footer{
+            color: black;
+            background-image: linear-gradient(120deg,#d00000,#ff4d6d,#a8dadc);
+            left: 0px;
+            bottom:20px;
+            position: fixed;
+            width: 100%;
+            font-size: 45px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            border-radius: 50px 5%;
+            box-shadow: 10px 10px 10px black;
+        }
+</style>
+</head>
+<body>
+    <div id="mybox">
+    <h1> Animation </h1>
+    </div>
+    <header>Welcome</header>
+    <footer>thank you</footer>
+    
+</body>
+</html>
